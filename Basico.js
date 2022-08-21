@@ -83,7 +83,16 @@ console.log(a); // recebeu outro valor
 
 const a = 3
 
+// TIPAGEM 
 
+let qualquer = 'Daniel'
+
+console.log(qualquer)
+console.log(typeof qualquer) // Informando o tipo da variável
+
+qualquer = 3.1516
+console.log(qualquer)
+console.log(typeof qualquer) // Number
 
 
 
