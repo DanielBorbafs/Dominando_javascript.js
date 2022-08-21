@@ -23,3 +23,16 @@ console.log(7 / 0 ) // número infinito
 console.log("10" / 2 ) // Dividindo string..
 console.log("Show!" * 10) // NaN
 console.log(0.1 + 0.7) // Imprecisão de resultados.
+
+
+// MATH
+
+const raio = 5.6
+const area = Math.PI * Math.pow(raio, 2) // power = potencia.. (elevao do ao quadrado)
+console.log(area.toFixed(2))
+
+// Meu exemplo
+
+const eleva = 4
+const resultado = Math.pow(eleva, 2)
+console.log(resultado)
