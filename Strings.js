@@ -13,3 +13,18 @@ console.log(escola.replace(3, 'e')) // Substituindo caracteres
 
 console.log('Ana,Maria,Pedro'.split(',')) // Gerando array com 3 elementos independentes separados por ','
 
+// TEMPLATE STRING
+const nome = 'Daniel'
+
+const concatenacao = 'Olá ' +  nome + '!'
+const template = `
+    Olá
+    ${nome}!`
+console.log(concatenacao, template)
+
+// expressoes
+console.log(`1 + 1 = ${1 + 1}`)
+
+const up = texto => texto.toUpperCase()
+console.log(`Ei... ${up('cuidado')}!`)
+
