@@ -45,3 +45,16 @@ console.log(soma(2, 3))
 
 const subtracao = (a, b) => a - b
 console.log(subtracao(2, 3))
+
+// funcao x objeto
+console.log(typeof Object)
+console.log(typeof new Object)
+
+const Cliente = function() {}
+console.log(typeof Cliente)
+console.log(typeof new Cliente)
+
+class Produto {}
+console.log(typeof Produto)
+console.log(typeof new Produto())
+
