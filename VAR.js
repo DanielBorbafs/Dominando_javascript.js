@@ -63,3 +63,30 @@ for (let i = 0; i < 10; i++) {
 }
 console.log('i=', i)
 // LET da erro quando tentamos imprimir fora do laço
+
+
+const funcs = []
+
+for (var i = 0; i < 10; i++) {
+    funcs.push(function() {
+        console.log(i)
+
+    })
+}
+funcs[2]() // resultado 10
+funcs[8]() // resultado 10
+
+
+
+// USANDO LET
+
+const funcs1 = []
+
+for (let i = 0; i < 10; i++) {
+    funcs1.push(function() {
+        console.log(i)
+
+    })
+}
+funcs1[2]() // resultado 2
+funcs1[8]() // resultado 8
