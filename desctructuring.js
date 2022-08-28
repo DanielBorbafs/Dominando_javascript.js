@@ -32,3 +32,23 @@ console.log(n1, n3, n5, n6)
 //array dentro de array
 const [, [, nota]] = [[, 8, 8], [9, 6, 8]]
 console.log(nota)
+
+
+function rand({min = 0, max = 1000}) {
+    const valor = Math.random() * (max - min ) + min
+    return Math.floor(valor)
+}
+
+const objt = {max: 50, min: 40} // retorna valor entre  50 e 40
+console.log(rand(obj))
+
+function rand([min = 0, max = 1000]){
+    // Caso o valor min seja maior que o max, inverta a ordem.
+    if (min > max) [min, max ] = [max, min]
+    const valor = Math.random() * (max - min) + min
+    return Math.floor(valor)
+}
+
+console.log(rand([50, 40]))
+console.log(rand([992]))
+
