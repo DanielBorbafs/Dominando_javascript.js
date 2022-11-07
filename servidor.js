@@ -10,3 +10,4 @@ app.get('/produtos', (req, res, next) => {
 app.listen(porta, () => {
     console.log(`Servidor executando na porta ${porta}.`)
 })
+// utilizando o postman para fazer requisições
